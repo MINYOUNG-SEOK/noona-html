@@ -40,39 +40,49 @@
                         <p>오이명란마요</p>
                     </li>
                 </ul>
-                <h3>2. Favorite singer & song</h3>
+                <h3>2. Favorite singer</h3>
                 <ul style="display: flex; list-style-type: none; padding: 0; gap: 10px;">
                     <li>
+                        <img src="https://cdn-images.dzcdn.net/images/cover/8a8edafa4ae8ed2e5c0fca44133ef3aa/0x1900-000000-80-0-0.jpg"
+                            alt="Luke Christopher" width="300" height="300">
+                        <p style="text-align: center;">Luke Christopher</p>
                         <a href="https://www.youtube.com/watch?v=T201IvfLpek" target="_blank">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDZyge7etVqxfQXmmNa17aAUccH6puJ3jU2w&s"
-                                alt="Luke Christopher" width="300" height="200">
-                            <p style="text-align: center; color: blue; font-weight: bold;">Click to Watch</p>
+                            <p style=" text-align: center; color: blue; font-weight: bold;">Click here to listen to
+                                Waterfalls</p>
                         </a>
                     </li>
                 </ul>
+                <h3>3. Favorite song</h3>
+                <div style="width: 300px;">
+                    <audio controls>
+                        <source src="./Luke Christopher - Lot to Learn.mp3" type="audio/mpeg" />
+                    </audio>
+                    <p style="text-align: center;">Luke Christopher - Lot to Learn</p>
+                </div>
             </div>
-            <h3>3. 인적사항</h3>
+            <br />
+            <h3>4. 추가 정보</h3>
             <div class="personal-info">
                 <table border="1" cellpadding="10" cellspacing="0"
                     style="width: 920px; text-align: center; border-collapse: collapse;">
                     <thead>
                         <tr style="background-color: #eee">
-                            <th>항목</th>
-                            <th>세부사항</th>
+                            <th>질문</th>
+                            <th>답변</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>이름</td>
-                            <td>홍길동</td>
+                            <td>영어 이름</td>
+                            <td>Rosie</td>
                         </tr>
                         <tr>
-                            <td>나이</td>
-                            <td>10</td>
+                            <td>요즘하는 운동</td>
+                            <td>배드민턴</td>
                         </tr>
                         <tr>
-                            <td>주소</td>
-                            <td>10</td>
+                            <td>지금 하고싶은 것</td>
+                            <td>여행</td>
                         </tr>
                     </tbody>
                 </table>
@@ -88,17 +98,20 @@
             <form action="#" method="POST">
                 <div>
                     <label for="name">Your Name:</label><br>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" style="width: 300px; height: 30px;" required>
                 </div>
+                <br />
                 <div>
-                    <label for="email">Your Email:</label><br>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" style="width: 300px; height: 30px;" required>
                 </div>
+                <br />
                 <div>
-                    <label for="message">Your Message:</label><br>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" style="width: 300px; height: 100px;" required></textarea>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit"
+                    style="background-color: blue; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px;">Submit</button>
             </form>
         </section>
     </main>
